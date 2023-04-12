@@ -207,7 +207,6 @@ def main():
     argspec['token_type'] = dict(required=False, type='str', default='default')
     argspec['upndomain'] = dict(required=False, type='str', default='', aliases=['upn_domain'])
     argspec['ldap_url'] = dict(required=False, type='str', default='ldap://127.0.0.1')
-    argspec['use_pre111_group_cn_behavior'] = dict(required=False, type='bool', default=False)
     argspec['use_token_groups'] = dict(required=False, type='bool', default=False)
     argspec['userattr'] = dict(required=False, type='str', default='cn', aliases=['user_attr'])
     argspec['userdn'] = dict(required=False, type='str', default='', aliases=['user_dn'])
